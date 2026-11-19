@@ -1,0 +1,33 @@
+FortFocus Freeware Binary License Agreement
+Copyright (c) 2026 FortFocus. All Rights Reserved.
+
+IMPORTANT — READ CAREFULLY:
+This License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity, referred to as "User" or "You") and FortFocus ("Licensor") regarding the compiled binary packages, installers, and accompanying documentation of FortFocus ("Software").
+
+BY DOWNLOADING, INSTALLING, COPYING, OR USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL, OR USE THE SOFTWARE.
+
+1. GRANT OF LICENSE
+Subject to the terms and conditions of this Agreement, Licensor grants You a non-exclusive, non-transferable, royalty-free, revocable license to download, install, and execute the compiled binary version of the Software on devices running supported Microsoft Windows operating systems solely for personal, educational, or internal organizational productivity use.
+
+2. PROPRIETARY RIGHTS & RESERVATION OF RIGHTS
+The Software is licensed, not sold. All rights, title, and interest in and to the Software—including without limitation all underlying source code, binary executables, architecture, algorithms, graphical assets, icons, sound recordings, visualizer designs, trademarks, and documentation—remain the sole and exclusive intellectual property of FortFocus. All rights not expressly granted to You under this Agreement are strictly reserved.
+
+3. RESTRICTIONS
+You agree NOT to, and will not permit any third party to:
+a. Decompile, disassemble, reverse engineer, or otherwise attempt to derive or reconstruct the source code of the Software, in whole or in part, except to the extent mandatory applicable law prohibits such restriction;
+b. Modify, adapt, translate, create derivative works of, or patch the Software or its installer packages;
+c. Sell, rent, lease, sublicense, distribute for commercial gain, bundle with commercial offerings, or monetize the Software;
+d. Distribute modified, repackaged, or re-branded copies of the Software under any other name without prior express written consent from FortFocus;
+e. Remove, alter, or obscure any proprietary copyright notices, trademarks, or confidentiality legends present in or on the Software.
+
+4. DISTRIBUTION OF OFFICIAL INSTALLERS
+You may share or redistribute exact, unmodified copies of the official installer package ("FortFocusSetup-0.13.0.exe") as obtained directly from the official FortFocus GitHub repository, provided that such redistribution is entirely free of charge, includes this License intact, and does not bundle or attach third-party installers, adware, toolbars, or download managers.
+
+5. TERMINATION
+This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically without notice if You fail to comply with any of its terms. Upon termination, You must immediately cease all use of the Software and delete all copies in your possession.
+
+6. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, AND NON-INFRINGEMENT. LICENSOR DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE SOFTWARE WILL BE CORRECTED.
+
+7. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LICENSOR OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
