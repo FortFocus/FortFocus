@@ -73,14 +73,14 @@ d1529e53544e249b1ba688d1be231e86a5b4b5c4145df48bef9667e5707e2592
 ---
 
 ### 2. Emergency Recovery Utility (`FortFocusRecovery.exe`)
-For user safety during deep lock sessions, a standalone emergency recovery utility is published alongside the installer. If you ever experience an emergency or need to safely disarm FortFocus without waiting for a session timer to expire:
+For user safety during deep lock sessions, a standalone emergency recovery utility is published alongside the installer. In `v0.13.0`, `FortFocusRecovery.exe` supports **Emergency Unlock** and **Service Disarm** if you need to safely disarm the background service or exit an active lock state:
 - **Recovery Binary:** [`FortFocusRecovery.exe`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe)
 - **Checksum File:** [`FortFocusRecovery.exe.sha256`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe.sha256)
 
 #### Recovery Instructions:
 1. Download `FortFocusRecovery.exe`.
 2. Right-click `FortFocusRecovery.exe` and select **Run as Administrator**.
-3. Follow the on-screen disarm prompt to safely stop the background enforcement service, restore your hosts file, and clear active application blocks immediately.
+3. Follow the on-screen prompt to perform an **Emergency Unlock** or **Service Disarm** immediately.
 
 #### Checksum Verification:
 ```powershell
@@ -123,8 +123,8 @@ Expected SHA-256 digest:
 2. **Start a Focus Block:**
    - Set your session timer (e.g., 25 or 50 minutes) and click **Start Focus Session**.
    - Your blocklist is immediately activated and protected by the background service.
-3. **Emergency Disarm:**
-   - If you need to stop an active session early in an emergency, run `FortFocusRecovery.exe` as Administrator.
+3. **Emergency Disarm & Unlock:**
+   - If you need to stop an active session early in an emergency, run `FortFocusRecovery.exe` as Administrator to disarm the service and unlock immediately.
 
 ---
 
