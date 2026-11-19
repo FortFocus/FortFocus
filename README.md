@@ -11,7 +11,7 @@
 
 # FortFocus — Fortified Productivity & Focus Enforcement for Windows
 
-**FortFocus** is an advanced, tamper-resistant desktop productivity and focus enforcement suite for Windows. Designed for professionals, developers, and students who require uncompromising concentration, FortFocus combines deep OS-level distraction blocking with **JIMMY**, an intelligent, voice-enabled focus companion.
+**FortFocus** is an advanced, tamper-resistant desktop productivity and focus enforcement suite for Windows. Designed for professionals, developers, and students who require uncompromising concentration, FortFocus combines deep OS-level distraction blocking with an intelligent, voice-enabled companion architecture.
 
 ---
 
@@ -22,11 +22,15 @@
   - **Web Barrier:** Blocks distracting domains and websites at the network layer without requiring intrusive browser extensions.
   - **Tamper-Resistant Windows Service:** Runs as a dedicated background Windows service (`fortfocus-service`), ensuring focus enforcement cannot be trivially bypassed via Task Manager or process termination.
 
-- **JIMMY — Intelligent Focus Companion**
+- **JIMMY — Intelligent Focus Companion Architecture**
   - **Holographic Interactive Avatar:** Real-time animated state visualizer responding to your productivity rhythms.
   - **Offline Voice Recognition:** Powered by embedded native Whisper (`whisper.cpp`) for fast, private, 100% offline speech-to-text.
-  - **Adaptive Coaching & Guidance:** Optional natural-language AI integration (Google Gemini & Groq) providing personalized work-session breakdown, focus coaching, and task tracking.
+  - **Adaptive Coaching & Guidance:** Integrated natural-language AI abstraction (Google Gemini & Groq) providing personalized work-session breakdown, focus coaching, and task tracking.
   - **Hardware DPAPI Encryption:** All optional AI credentials are encrypted using Windows Data Protection API (DPAPI) and never stored in plaintext.
+
+> [!NOTE]
+> **JIMMY AI Roadmap Status (v0.13.0)**  
+> The core local distraction blocking, Windows background service guard, and timer scheduling in version `0.13.0` are fully active and operational. **JIMMY AI** conversational coaching and voice companion features are currently dormant/inactive in this initial release and will be officially activated in an upcoming update in a few months.
 
 - **Configurable Session & Break Scheduling**
   - Flexible session lengths (Pomodoro or custom deep-work blocks).
@@ -44,27 +48,47 @@
 | **Privileges** | Administrator rights (required once during setup to install the background service) |
 | **Memory (RAM)** | 4 GB minimum (8 GB recommended when using voice recognition) |
 | **Disk Space** | ~250 MB free space |
-| **Network** | Offline-capable (Internet required only if enabling cloud AI coaching features) |
+| **Network** | Offline-capable (Internet required only if enabling cloud AI coaching features in future updates) |
 
 ---
 
 ## Download & Verification
 
-### Step 1: Download the Official Installer
-Download the latest official installer package and verification hash from the **[Releases](https://github.com/rushirajkakade909-cell/FortFocus/releases)** tab:
+All official binaries are signed cryptographically via published SHA-256 digests and available in the **[Releases](https://github.com/rushirajkakade909-cell/FortFocus/releases)** tab.
+
+### 1. Main Application Installer (`FortFocusSetup-0.13.0.exe`)
+Download the primary production installer:
 - **Installer:** [`FortFocusSetup-0.13.0.exe`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusSetup-0.13.0.exe)
 - **Checksum File:** [`FortFocusSetup-0.13.0.exe.sha256`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusSetup-0.13.0.exe.sha256)
 
-### Step 2: Cryptographic Checksum Verification
-To confirm installer integrity and ensure the binary has not been modified or corrupted, compute its SHA-256 hash in PowerShell:
-
+#### Checksum Verification:
 ```powershell
 Get-FileHash -Algorithm SHA256 .\FortFocusSetup-0.13.0.exe
 ```
-
 Expected SHA-256 digest:
 ```text
 d1529e53544e249b1ba688d1be231e86a5b4b5c4145df48bef9667e5707e2592
+```
+
+---
+
+### 2. Emergency Recovery Utility (`FortFocusRecovery.exe`)
+For user safety during deep lock sessions, a standalone emergency recovery utility is published alongside the installer. If you ever experience an emergency or need to safely disarm FortFocus without waiting for a session timer to expire:
+- **Recovery Binary:** [`FortFocusRecovery.exe`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe)
+- **Checksum File:** [`FortFocusRecovery.exe.sha256`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe.sha256)
+
+#### Recovery Instructions:
+1. Download `FortFocusRecovery.exe`.
+2. Right-click `FortFocusRecovery.exe` and select **Run as Administrator**.
+3. Follow the on-screen disarm prompt to safely stop the background enforcement service, restore your hosts file, and clear active application blocks immediately.
+
+#### Checksum Verification:
+```powershell
+Get-FileHash -Algorithm SHA256 .\FortFocusRecovery.exe
+```
+Expected SHA-256 digest:
+```text
+509c6f001137e1e0d62749ac96a9d659f661a5174f767377652fd555d346a3ba
 ```
 
 ---
@@ -99,13 +123,8 @@ d1529e53544e249b1ba688d1be231e86a5b4b5c4145df48bef9667e5707e2592
 2. **Start a Focus Block:**
    - Set your session timer (e.g., 25 or 50 minutes) and click **Start Focus Session**.
    - Your blocklist is immediately activated and protected by the background service.
-3. **Interact with JIMMY:**
-   - Click the **JIMMY** tab to interact with your focus companion.
-   - Use voice or text to check your session progress, set goals, or ask for break coaching.
-4. **Configure AI Credentials (Optional):**
-   - If you wish to enable conversational AI guidance, open **Settings $\rightarrow$ Credentials**.
-   - Enter your personal Google Gemini or Groq API key.
-   - Keys are immediately encrypted at rest using your Windows user DPAPI profile.
+3. **Emergency Disarm:**
+   - If you need to stop an active session early in an emergency, run `FortFocusRecovery.exe` as Administrator.
 
 ---
 
