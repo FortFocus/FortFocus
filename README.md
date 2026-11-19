@@ -78,9 +78,14 @@ For user safety during deep lock sessions, a standalone emergency recovery utili
 - **Checksum File:** [`FortFocusRecovery.exe.sha256`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe.sha256)
 
 #### Recovery Instructions:
-1. Download `FortFocusRecovery.exe`.
-2. Right-click `FortFocusRecovery.exe` and select **Run as Administrator**.
-3. Follow the on-screen prompt to perform an **Emergency Unlock** or **Service Disarm** immediately.
+1. **Download:** Download `FortFocusRecovery.exe` from the Releases section.
+2. **Run as Administrator:** Right-click `FortFocusRecovery.exe` and select **Run as administrator** (required to manage Windows background services).
+3. **Bypass SmartScreen (if prompted):** If Windows SmartScreen appears, click **More info** followed by **Run anyway**.
+4. **Choose Recovery Mode:** Follow the on-screen options to select either **Emergency Unlock** (to immediately clear active lockouts) or **Service Disarm** (to safely stop and disarm the background service).
+
+> [!TIP]
+> **Portable USB / External Storage Tip**  
+> Because `FortFocusRecovery.exe` is a completely standalone executable requiring no installation or external dependencies, you can keep a copy on a **USB pen drive or any external storage device**. This ensures you always have immediate physical access to emergency unlock and disarm capabilities even during strict lock sessions.
 
 #### Checksum Verification:
 ```powershell
