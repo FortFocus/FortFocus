@@ -1,8 +1,8 @@
 FortFocus Freeware Binary License Agreement
-Copyright (c) 2026 FortFocus (rushirajkakade909-cell). All Rights Reserved.
+Copyright (c) 2026 FortFocus. All Rights Reserved.
 
 IMPORTANT — READ CAREFULLY:
-This License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity, referred to as "User" or "You") and FortFocus / rushirajkakade909-cell ("Licensor") regarding the compiled binary packages, installers, standalone recovery tools, and accompanying documentation of FortFocus, including without limitation "FortFocusSetup-0.13.0.exe", "FortFocusRecovery.exe", and associated runtime components ("Software").
+This License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity, referred to as "User" or "You") and FortFocus ("Licensor") regarding the compiled binary packages, installers, standalone recovery tools, and accompanying documentation of FortFocus, including without limitation "FortFocusSetup-0.13.0.exe", "FortFocusRecovery.exe", and associated runtime components ("Software").
 
 BY DOWNLOADING, INSTALLING, COPYING, OR USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL, OR USE THE SOFTWARE.
 
@@ -10,7 +10,7 @@ BY DOWNLOADING, INSTALLING, COPYING, OR USING THE SOFTWARE, YOU AGREE TO BE BOUN
 Subject to the terms and conditions of this Agreement, Licensor grants You a non-exclusive, non-transferable, royalty-free, revocable license to download, install, and execute the compiled binary versions of the Software (including both the main FortFocus application and the standalone FortFocusRecovery.exe emergency utility) on devices running supported Microsoft Windows operating systems solely for personal, educational, or commercial end-user productivity use.
 
 2. PROPRIETARY RIGHTS & RESERVATION OF RIGHTS
-The Software is licensed, not sold. All rights, title, and interest in and to the Software—including without limitation all underlying source code, binary executables, architecture, algorithms, graphical assets, icons, sound recordings, visualizer designs, trademarks, and documentation—remain the sole and exclusive intellectual property of FortFocus (rushirajkakade909-cell). All rights not expressly granted to You under this Agreement are strictly reserved.
+The Software is licensed, not sold. All rights, title, and interest in and to the Software—including without limitation all underlying source code, binary executables, architecture, algorithms, graphical assets, icons, sound recordings, visualizer designs, trademarks, and documentation—remain the sole and exclusive intellectual property of FortFocus. All rights not expressly granted to You under this Agreement are strictly reserved.
 
 3. RESTRICTIONS
 You agree NOT to, and will not permit any third party to:
@@ -22,7 +22,7 @@ e. Engage in unauthorized redistribution, mirroring, or hosting of the Software 
 f. Remove, alter, or obscure any proprietary copyright notices, trademarks, or confidentiality legends present in or on the Software.
 
 4. OFFICIAL DISTRIBUTION & PORTABLE USE
-Official downloads of the Software (including "FortFocusSetup-0.13.0.exe" and "FortFocusRecovery.exe") are provided exclusively via the official GitHub repository (https://github.com/rushirajkakade909-cell/FortFocus). You are permitted to retain exact, unmodified copies of "FortFocusRecovery.exe" on portable external storage media (such as USB drives) solely for personal emergency recovery purposes. Any redistribution of the official packages must be unmodified, free of charge, include this License intact, link directly to the official GitHub repository, and never bundle third-party software, adware, toolbars, or wrappers.
+Official downloads of the Software (including "FortFocusSetup-0.13.0.exe" and "FortFocusRecovery.exe") are provided exclusively via the official GitHub repository (https://github.com/FortFocus/FortFocus). You are permitted to retain exact, unmodified copies of "FortFocusRecovery.exe" on portable external storage media (such as USB drives) solely for personal emergency recovery purposes. Any redistribution of the official packages must be unmodified, free of charge, include this License intact, link directly to the official GitHub repository, and never bundle third-party software, adware, toolbars, or wrappers.
 
 5. TERMINATION
 This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically without notice if You fail to comply with any of its terms. Upon termination, You must immediately cease all use of the Software and delete all copies in your possession.

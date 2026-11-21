@@ -54,12 +54,12 @@
 
 ## Download & Verification
 
-All official binaries are signed cryptographically via published SHA-256 digests and available in the **[Releases](https://github.com/rushirajkakade909-cell/FortFocus/releases)** tab.
+All official binaries are signed cryptographically via published SHA-256 digests and available in the **[Releases](https://github.com/FortFocus/FortFocus/releases)** tab.
 
 ### 1. Main Application Installer (`FortFocusSetup-0.13.0.exe`)
 Download the primary production installer:
-- **Installer:** [`FortFocusSetup-0.13.0.exe`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusSetup-0.13.0.exe)
-- **Checksum File:** [`FortFocusSetup-0.13.0.exe.sha256`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusSetup-0.13.0.exe.sha256)
+- **Installer:** [`FortFocusSetup-0.13.0.exe`](https://github.com/FortFocus/FortFocus/releases/download/v0.13.0/FortFocusSetup-0.13.0.exe)
+- **Checksum File:** [`FortFocusSetup-0.13.0.exe.sha256`](https://github.com/FortFocus/FortFocus/releases/download/v0.13.0/FortFocusSetup-0.13.0.exe.sha256)
 
 #### Checksum Verification:
 ```powershell
@@ -74,8 +74,8 @@ d1529e53544e249b1ba688d1be231e86a5b4b5c4145df48bef9667e5707e2592
 
 ### 2. Emergency Recovery Utility (`FortFocusRecovery.exe`)
 For user safety during deep lock sessions, a standalone emergency recovery utility is published alongside the installer. In `v0.13.0`, `FortFocusRecovery.exe` supports **Emergency Unlock** and **Service Disarm** if you need to safely disarm the background service or exit an active lock state:
-- **Recovery Binary:** [`FortFocusRecovery.exe`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe)
-- **Checksum File:** [`FortFocusRecovery.exe.sha256`](https://github.com/rushirajkakade909-cell/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe.sha256)
+- **Recovery Binary:** [`FortFocusRecovery.exe`](https://github.com/FortFocus/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe)
+- **Checksum File:** [`FortFocusRecovery.exe.sha256`](https://github.com/FortFocus/FortFocus/releases/download/v0.13.0/FortFocusRecovery.exe.sha256)
 
 #### Recovery Instructions:
 1. **Download:** Download `FortFocusRecovery.exe` from the Releases section.
@@ -143,4 +143,4 @@ Expected SHA-256 digest:
 
 ## Support & Vulnerability Disclosure
 
-If you encounter an issue or wish to report a security vulnerability, please refer to our [Security Policy](SECURITY.md) or open an issue on the [GitHub Issues](https://github.com/rushirajkakade909-cell/FortFocus/issues) page.
+If you encounter an issue or wish to report a security vulnerability, please refer to our [Security Policy](SECURITY.md) or open an issue on the [GitHub Issues](https://github.com/FortFocus/FortFocus/issues) page.

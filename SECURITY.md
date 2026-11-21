@@ -19,9 +19,9 @@ Security updates and patches are actively maintained for the latest release bran
 
 If you have discovered a potential security vulnerability, privilege escalation path, service isolation bypass, or privacy leak in FortFocus, please report it privately through GitHub:
 
-1. Navigate to the repository's **[Security](https://github.com/rushirajkakade909-cell/FortFocus/security)** tab.
-2. Select **[Advisories](https://github.com/rushirajkakade909-cell/FortFocus/security/advisories)**.
-3. Click **Report a vulnerability** (or use the direct link: `https://github.com/rushirajkakade909-cell/FortFocus/security/advisories/new`).
+1. Navigate to the repository's **[Security](https://github.com/FortFocus/FortFocus/security)** tab.
+2. Select **[Advisories](https://github.com/FortFocus/FortFocus/security/advisories)**.
+3. Click **Report a vulnerability** (or use the direct link: `https://github.com/FortFocus/FortFocus/security/advisories/new`).
 4. Provide a detailed description of the vulnerability, including:
    - Operating system version (e.g., Windows 10 22H2, Windows 11 23H2).
    - Component affected (e.g., Windows service, named pipe IPC, GUI, DPAPI storage).
