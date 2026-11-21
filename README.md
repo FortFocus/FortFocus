@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Version-v0.13.0-00b4d8?style=flat-square" alt="Current Release">
   <img src="https://img.shields.io/badge/License-Proprietary%20Freeware-blueviolet?style=flat-square" alt="Deployment License">
   <img src="https://img.shields.io/badge/Privacy-Local%20First%20(No%20Data%20Collected)-success?style=flat-square" alt="Privacy First">
+  <a href="https://www.instagram.com/fortfocus.official/"><img src="https://img.shields.io/badge/Instagram-%40fortfocus.official-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
 </p>
 
 # FortFocus — Fortified Productivity & Focus Enforcement for Windows
@@ -138,6 +139,13 @@ Expected SHA-256 digest:
 - **Local-First Architecture:** All timers, application blocks, and speech recognition engines execute entirely on your local machine.
 - **Zero Telemetry:** FortFocus does not transmit telemetry, tracking cookies, or usage analytics.
 - **Hardware-Backed Encryption:** Any API keys provided for cloud LLM features are protected by Windows DPAPI encryption keys tied to your Windows user account.
+
+---
+
+## Community & Updates
+
+Follow our official social channel for product updates, feature previews, and upcoming JIMMY AI announcements:
+- **Official Instagram:** [@fortfocus.official](https://www.instagram.com/fortfocus.official/)
 
 ---
 
